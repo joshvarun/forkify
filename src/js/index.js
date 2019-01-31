@@ -1,3 +1,3 @@
 // Global app controller
 import x from './test';
-console.log(`I imported ${x} from module`);
+console.log(`I imported ${x} from module called test`);

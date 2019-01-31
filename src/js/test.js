@@ -1,3 +1,3 @@
 console.log('import');
 
-export default 23;
+export default 230044;
