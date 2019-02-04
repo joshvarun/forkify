@@ -14,11 +14,13 @@ const controlSearch = async () => {
         await state.search.getResults();
 
         // Show loader
+        searchView.clearInput();
+        searchView.clearResults();
 
         // Render results
         console.log(state.search.result);
         searchView.renderResults(state.search.result);
-        searchView.clearInput();
+        
     }
 }
 
